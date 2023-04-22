@@ -8,7 +8,7 @@
 			var query = document.getElementById("searchbox").value;
 			query = query.replace(/[^a-zA-Z0-9\u3000-\u303F\uFF00-\uFFEF\u4E00-\u9FFF【】]/g, '');
 			var urls = [
-				"https://shopee.tw/search?keyword=" + query,
+				"https://shopee.tw/search?keyword=" + query + "&sortBy=sales",
 				"https://biggo.com.tw/s/?q=" + query,
 				"https://www.google.com.tw/search?q=" + query + " shopee.com.tw",
 				"https://ecshweb.pchome.com.tw/search/v3.3/?q=" + query + "&scope=24h&sortParm=sale&sortOrder=dc",
